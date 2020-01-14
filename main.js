@@ -26,5 +26,10 @@ $(document).ready(function () {
         duration: 1800,
         once: true ///*es para q la animacion suceda solo una vez*/
     });
+    
+    $("#galeria2").hide();
+    $("#herramientas").click(function(){
+    $("#galeria2").toggle();
+    });
 
 });
